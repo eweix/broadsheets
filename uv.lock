@@ -1,0 +1,23 @@
+version = 1
+revision = 3
+requires-python = ">=3.12"
+
+[[package]]
+name = "broadsheets"
+version = "0.1.0"
+source = { virtual = "." }
+dependencies = [
+    { name = "listparser" },
+]
+
+[package.metadata]
+requires-dist = [{ name = "listparser", specifier = ">=0.20" }]
+
+[[package]]
+name = "listparser"
+version = "0.20"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/be/ee/d9f02600955ca34baf73e824d64b181b412745ed448a0ad1a92cef81115b/listparser-0.20.tar.gz", hash = "sha256:0dda5b41ca9531fc3c438eb4abf4d8a7cf03ef050d196875993e897a66c1f885", size = 12404, upload-time = "2024-03-29T12:21:07.242Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/c9/27/bd96818acce8ed1909dff29817096016f5e958ef646a377b34d55afa23b3/listparser-0.20-py3-none-any.whl", hash = "sha256:5daae9895b75191a77b14f5b8eabf7a63a4ca440f215d9bd8d8e5a2eccde02ce", size = 14149, upload-time = "2024-03-29T12:21:06.014Z" },
+]
