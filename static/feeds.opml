@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<opml version="2.0">
+  <head>
+    <title>Broadsheets News Aggregator Sources</title>
+    <dateCreated>2025-03-26</dateCreated>
+    <ownerName>Elliott Weix</ownerName>
+  </head>
+
+  <body>
+    <outline
+      text="Letters from an American"
+      title="Letters from an American"
+      type="rss"
+      version="RSS"
+      htmlURL="https://heathercoxrichardson.substack.com"
+      xmlURL="https://heathercoxrichardson.substack.com/feed"
+    />
+    <outline
+      text="Erin in the Morning"
+      title="Erin in the Morning"
+      type="rss"
+      version="RSS"
+      htmlURL="https://erininthemorn.substack.com"
+      xmlURL="https://erininthemorn.substack.com/feed"
+    />
+    <outline
+      text="Strength in Numbers"
+      title="Strength in Numbers"
+      type="rss"
+      version="RSS"
+      htmlURL="https://www.gelliottmorris.com"
+      xmlURL="https://www.gelliottmorris.com/feed"
+    />
+    <outline
+      text="Paul Krugman"
+      title="Paul Krugman"
+      type="rss"
+      version="RSS"
+      htmlURL="https://paulkrugman.substack.com"
+      xmlURL="https://paulkrugman.substack.com/feed"
+    />
+    <outline
+      text="Abortion, Every Day"
+      title="Abortion, Every Day"
+      type="rss"
+      version="RSS"
+      htmlURL="https://jessica.substack.com"
+      xmlURL="https://jessica.substack.com/feed"
+    />
+    <outline
+      text="The Present Age"
+      title="The Present Age"
+      type="rss"
+      version="RSS"
+      htmlURL="https://www.readtpa.com"
+      xmlURL="https://www.readtpa.com/feed"
+    />
+    <outline
+      text="Popular Information"
+      title="Popular Information"
+      type="rss"
+      version="RSS"
+      htmlURL="https://popular.info"
+      xmlURL="https://popular.info/feed"
+    />
+    <outline
+      text="Volts"
+      title="Volts"
+      type="rss"
+      version="RSS"
+      htmlURL="https://www.volts.wtf"
+      xmlURL="https://www.volts.wtf/feed"
+    />
+    <outline
+      text="Thinking About..."
+      title="Thinking About..."
+      type="rss"
+      htmlURL="https://snyder.substack.com"
+      xmlURL="https://snyder.substack.com/feed"
+    />
+    <outline
+      text="Mediatations in an Emergency"
+      title="Meditations in an Emergency"
+      type="rss"
+      version="RSS"
+      htmlURL="https://www.meditationsinanemergency.com"
+      xmlURL="https://www.meditationsinanemergency.com/rss/"
+    />
+      <outline
+      text="Foreign Policy"
+      title="Foreign Policy"
+      htmlURL="https://foreignpolicy.com/category/world-brief/"
+      xmlURL="https://foreignpolicy.com/category/world-brief/feed/"
+    />
+      <outline
+      text="Grist"
+      title="Grist"
+      type="rss"
+      version="RSS"
+      htmlURL="https://grist.org/energy"
+      xmlURL="https://grist.org/energy/feed/"
+    />
+  </body>
+</opml>
