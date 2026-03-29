@@ -1,0 +1,14 @@
+{{ define "main" }}
+  {{ .Content }}
+  <section class="newsboard">
+      {{/* range site.RegularPages.ByDate.Reverse */}}
+      {{ range site.RegularPages.GroupByDate "2006-01-02" }}
+        <h2>{{ time.Format "Jan 02 2006" .Key }}</h2>
+        <ul>
+            {{ range .Pages }}
+                {{ partial "newsblock.html" . }}
+            {{ end }}
+        </ul>
+      {{ end }}
+  </section>
+{{ end }}

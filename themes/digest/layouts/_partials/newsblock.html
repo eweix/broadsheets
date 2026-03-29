@@ -1,0 +1,7 @@
+<li class="newsblock">
+  {{ $feed := .Params.feed }}
+  {{ $link := .Params.link }}
+  {{- with .Title -}}<b><a href="{{ $link }}">{{- . -}}</a></b>{{- end }}
+  {{ with .Params.author }}By {{ . }}{{- end }}
+  {{ with .Params.feed }}@ <a href="">{{ . }}</a>{{ end }}
+</li>

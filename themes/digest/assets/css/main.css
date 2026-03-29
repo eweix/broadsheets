@@ -1,0 +1,27 @@
+:root {
+  --sans:
+    -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, Adwaita Sans, Cantarell, Ubuntu,
+    roboto, noto, helvetica, arial, sans-serif;
+  --serif:
+    Iowan Old Style, Apple Garamond, Baskerville, Times New Roman, Droid Serif, Times, Source Serif Pro, serif,
+    Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  --mono: Menlo, Consolas, Monaco, Adwaita Mono, Liberation Mono, Lucida Console, monospace;
+}
+
+body {
+  color: #222;
+  font-size: 14pt;
+  font-family: var(--serif);
+  line-height: 1.5;
+  margin: 1rem;
+}
+
+header {
+  border-bottom: 1px solid #222;
+  margin-bottom: 1rem;
+}
+
+footer {
+  border-top: 1px solid #222;
+  margin-top: 1rem;
+}
